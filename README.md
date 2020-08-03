@@ -1,4 +1,4 @@
-# StuckOverflow
+# SMTPDebugger
 **[AppSec Village CTF Task Fight 2020]** SMTPDebugger
 
 ![Challenge Description](resources/img/description.png)
