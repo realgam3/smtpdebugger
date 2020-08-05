@@ -92,7 +92,7 @@ def exploit(host="localhost", port=3780):
         func_content = '\n    '.join([''] + decrypt_code(code).splitlines())
         func_code = f"def {co_args['co_name']}():{func_content}\n"
         # print(data.decode())
-        # print(func_code)
+        print(func_code)
         exec(f"{func_code}\nprint({co_args['co_name']}())")
 
 
